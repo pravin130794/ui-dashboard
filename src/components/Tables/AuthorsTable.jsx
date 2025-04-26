@@ -159,7 +159,7 @@ export default function AuthorsTable() {
                       navigate("/analysis"); // go to analysis page
                     }}
                   >
-                    Edit
+                    Analyse
                   </Button>
                 </Td>
               </Tr>
