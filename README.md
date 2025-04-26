@@ -1,12 +1,37 @@
-# React + Vite
+# 🚀 Vite + React + Chakra UI - Order Management Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📄 Project Overview
 
-Currently, two official plugins are available:
+This is a modern **Order Management Dashboard** built with **Vite**, **React**, and **Chakra UI**.  
+It provides a clean admin panel with functionalities like:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- View active orders
+- Search orders by ID, status, or brief
+- Filter orders by status (Completed, Failed, Pending)
+- Paginated order listing
+- AI Analyze order details on a dedicated analysis page
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ How to Run the Application
+
+1. **Clone the repository**
+
+```bash
+git clone https://github.com/your-username/your-repo-name.git
+cd your-repo-name
+pnpm install
+pnpm run dev
+```
+
+2. **Install project dependencies**
+
+pnpm install
+
+3. **Start the development server**
+
+pnpm run dev
+
+4. **Open in Browser**
+
+Go to: http://localhost:5173
