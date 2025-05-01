@@ -1,9 +1,18 @@
 // src/components/Cards/StatsCard.jsx
 import { Box, Flex, Icon, Text } from "@chakra-ui/react";
 
-export default function StatsCard({ title, amount, growth, icon }) {
+export default function StatsCard({ title, amount, growth, icon, onClick }) {
   return (
-    <Box p="5" bg="white" borderRadius="md" boxShadow="sm">
+    <Box
+      p="5"
+      bg="white"
+      borderRadius="md"
+      boxShadow="sm"
+      cursor={onClick ? "pointer" : "default"}
+      _hover={onClick ? { boxShadow: "md", transform: "scale(1.02)" } : {}}
+      transition="all 0.2s"
+      onClick={onClick}
+    >
       <Flex justify="space-between" align="center" mb="4">
         <Box>
           <Text fontSize="sm" color="gray.500">
